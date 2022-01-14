@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="nav.js" defer></script>
+</head>
+
+<body>
+    <!-- First Section -->
+    <div class="hero">
+        <header class="primary-header flex">  
+            <div class="logo">
+                <img alt="logo"/>              
+            <!-- <h2 class="logo">Web <span>Developer</span></h2> -->
+            </div>
+
+            <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false"><span class="sr-only">Menu</span></button>
+            <nav>
+                <ul data-visible="false" id="primary-nav" class="primary-nav flex">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#socials">Socials</a></li>
+                    <li><a href="#" class="btn">Contact</a></li>
+                    </ul>        
+            </nav>
+        </header>
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Joseph <span>De Leon</span></h1>
+            <h3>An aspiring Web Developer</h1>
+                <div class="newsletter">
+                    <form>
+                        <input type="email" name="email" id="mail" placeholder="Enter your Email">
+                        <input type="submit" name="submit" value="Let's Start">
+                    </form>
+                </div>
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about-me">
+        <div class="main-about">
+            <img src="images/Zeph-2.jpg" alt="Zeph standing with a guitar">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer <span>& Musician</span></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam autem cumque cupiditate
+                    facere sapiente quos doloribus veritatis reiciendis, rerum voluptates, illum cum. Dolor voluptas
+                    accusamus soluta commodi beatae recusandae!</p>
+                <button class="about-btn" type="button">Let's Talk!</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="skills" id="skills">
+        <div class="title">
+            <h2>My Skills</h2>
+        </div>
+
+
+        <div class="box">
+            <!-- 1st Div -->
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="paragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere doloribus fugiat quos, obcaecati
+                        amet non dolorem vitae porro exercitationem? Tenetur!
+                    </p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- 2nd Div -->
+            <div class="card">
+                <i class="far fa-user"></i>
+                <h5>Web Development</h5>
+                <div class="paragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore reiciendis hic omnis corrupti
+                        saepe non debitis qui quae officiis recusandae.
+                    </p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3rd Div -->
+            <div class="card">
+                <i class="far fa-bell"></i>
+                <h5>Web Development</h5>
+                <div class="paragraph">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit ducimus ad minus deleniti est unde
+                        rerum incidunt velit omnis dolorum!
+                    </p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Joseph M. De Leon</p>
+        <p>Let's Connect!</p>
+        <div class="socials" id="socials">
+            <a href="https://www.facebook.com/VerdantMusicZeph/" target="_blank"><i
+                    class="fab fa-facebook-square 5x"></i></a>
+            <a href="https://twitter.com/VerdantZeph" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://github.com/joeseffdl" target="_blank"><i class="fab fa-git-square"></i></i></a>
+            <a href="mailto:joeseffdl@gmail.com" target="_blank"><i class="fas fa-at"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
