@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Joseph's Portfolio Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
     <script src="nav.js" defer></script>
 </head>
 
 <body>
     <!-- First Section -->
-    <div class="hero">
         <header class="primary-header flex">  
             <div class="logo">
                 <img alt="logo"/>              
@@ -23,100 +23,87 @@
             <nav>
                 <ul data-visible="false" id="primary-nav" class="primary-nav flex">
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#socials">Socials</a></li>
                     <li><a href="#" class="btn">Contact</a></li>
                     </ul>        
             </nav>
         </header>
-        <div class="content">
-            <h4>Hello, my name is</h4>
-            <h1>Joseph <span>De Leon</span></h1>
-            <h3>An aspiring Web Developer</h1>
-                <div class="newsletter">
-                    <form>
-                        <input type="email" name="email" id="mail" placeholder="Enter your Email">
-                        <input type="submit" name="submit" value="Let's Start">
-                    </form>
-                </div>
-        </div>
-    </div>
 
-    <!-- About Me Section -->
-    <section class="about-me" id="about-me">
-        <div class="main-about">
-            <img src="images/Zeph-2.jpg" alt="Zeph standing with a guitar">
-            <div class="about-text">
-                <h2>About Me</h2>
-                <h5>Developer <span>& Musician</span></h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam autem cumque cupiditate
-                    facere sapiente quos doloribus veritatis reiciendis, rerum voluptates, illum cum. Dolor voluptas
-                    accusamus soluta commodi beatae recusandae!</p>
-                <button class="about-btn" type="button">Let's Talk!</button>
-            </div>
-        </div>
+    <!-- Intro Section -->
+    <section class="intro" id="home">
+        <h1 class="section-title section-title-intro">
+            Hi, I am <strong>Joseph De Leon</strong>
+        </h1>
+        <p class="section-sub section-sub-intro">front-end dev</p>
+        <img class="intro-img" src="../images/Zeph-2.jpg" alt="A picture of Joseph De Leon holding a guitar">
     </section>
 
     <!-- Service Section -->
-    <section class="skills" id="skills">
-        <div class="title">
-            <h2>My Skills</h2>
+    <section class="my-skills" id="skills">
+        <h2 class="section-title section-skills">Development Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Web Dev</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio dicta nisi nemo aliquid vel neque, laudantium beatae fugiat earum. Est quibusdam laudantium unde ipsam earum? Placeat perferendis unde quia qui?</p>
+            </div>
+            <div class="skill">
+                <h3>Mobile Application Dev</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quidem consectetur, amet cumque incidunt architecto enim qui? Quidem, incidunt vel.</p>
+            </div>
+            <div class="skill">
+                <h3>Game Dev</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempore aliquid, molestiae cupiditate consequatur vitae.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about">
+        <h2 class="section-title section-title-about">Who I am</h2>
+        <p class="section-sub section-sub-about">An Aspiring Software Developer</p>
+        <div class="about-me-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatem voluptates, animi eligendi quam assumenda ab porro neque sit est ducimus ea numquam dolores eum! Recusandae nesciunt quod, a facilis laudantium repellat, facere harum amet sequi, iure enim ipsum eum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorum vitae necessitatibus, perferendis nam nesciunt fugiat eos optio exercitationem ducimus illo deserunt ex amet nihil, aliquam quisquam vel officia molestias.</p>
         </div>
 
+        <img class="about-me-img" src="../images/Zeph.jpg" alt="Joseph playing the guitar">
+    </section>
 
-        <div class="box">
-            <!-- 1st Div -->
-            <div class="card">
-                <i class="fas fa-bars"></i>
-                <h5>Web Development</h5>
-                <div class="paragraph">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere doloribus fugiat quos, obcaecati
-                        amet non dolorem vitae porro exercitationem? Tenetur!
-                    </p>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section-title section-title-work">My Work</h2>
+        <p class="section-sub section-sub-work">A selection of my range of work</p>
 
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
-
-            <!-- 2nd Div -->
-            <div class="card">
-                <i class="far fa-user"></i>
-                <h5>Web Development</h5>
-                <div class="paragraph">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore reiciendis hic omnis corrupti
-                        saepe non debitis qui quae officiis recusandae.
-                    </p>
-
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
-
-            <!-- 3rd Div -->
-            <div class="card">
-                <i class="far fa-bell"></i>
-                <h5>Web Development</h5>
-                <div class="paragraph">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit ducimus ad minus deleniti est unde
-                        rerum incidunt velit omnis dolorum!
-                    </p>
-
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
-            </div>
+        <div class="portfolio">
+            <a href="#" class="portfolio-item">
+                <img class="portfolio-image" src="../images/1.png" alt="alt image">
+            </a>
+            <a href="#" class="portfolio-item">
+                <img class="portfolio-image" src="../images/2.png" alt="alt image">
+            </a>
+            <a href="#" class="portfolio-item">
+                <img class="portfolio-image" src="../images/3.png" alt="alt image">
+            </a>
+            <a href="#" class="portfolio-item">
+                <img class="portfolio-image" src="../images/4.jpg" alt="alt image">
+            </a>
+            <a href="#" class="portfolio-item">
+                <img class="portfolio-image" src="../images/5.jpg" alt="alt image">
+            </a>
+            <a href="#" class="portfolio-item">
+                <img class="portfolio-image" src="../images/6.png" alt="alt image">
+            </a>
         </div>
     </section>
 
     <!-- Footer Section -->
     <footer>
         <p>Joseph M. De Leon</p>
-        <p>Let's Connect!</p>
+        <p>Hit me up!</p>
         <div class="socials" id="socials">
             <a href="https://www.facebook.com/VerdantMusicZeph/" target="_blank"><i
                     class="fab fa-facebook-square 5x"></i></a>
