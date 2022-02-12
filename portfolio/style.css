@@ -190,8 +190,8 @@ h3{
         width:2.5rem;
         border: 0;
         aspect-ratio: 1;
-        top: 1rem;
-        right: 5rem;
+        top: 1.25rem;
+        right: 3rem;
     }
 
     .mobile-nav-toggle[aria-expanded="true"]{
